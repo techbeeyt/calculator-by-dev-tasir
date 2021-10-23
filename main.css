@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@800&display=swap');
+* {
+    box-sizing: border-box;
+}
+
+.container {
+    max-width: 390px;
+    width: 50%;
+    margin: 10px auto;
+}
+
+.display {
+    background-color: #8ad4ff;
+    border-radius: 10px;
+    min-height: 100px;
+    position: relative;
+    color: #005b94;
+}
+
+.display #operator {
+    right: 5px;
+    bottom: 5px;
+    position: absolute;
+    font-family: sans-serif;
+    font-size: 0.7rem;
+}
+.display .digits {
+    font-family: 'Orbitron',sans-serif;
+    position: absolute;
+    right: 20px;
+    bottom: 20px;
+    font-size: 2rem;
+}

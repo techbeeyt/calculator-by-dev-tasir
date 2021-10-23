@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Urbanist&display=swap');
+.buttons-container {
+    margin: 20px 0px 0px 0px;
+    grid-column-gap: 20px;
+    grid-row-gap: 10px;
+    display: grid;
+    grid-template-areas: 'onButton clearButton . plusButton' 'numberOne numberTwo numberThree minusButton'
+'numberFour numberFive numberSix mulButton' 'numberSeven numberEight numberNine divButton' 'dotButton numberZero ansButton ansButton';
+}
+.buttons-container button{
+    background-color: #16a3fc;
+    padding: 10px 0px;
+    border-radius: 20px;
+    border: none;
+    box-shadow: 1px 2px 5px rgba(1,1,1,0.5);
+    min-height: 50px;
+    font-family: 'Urbanist',sans-serif;
+    font-size: 1.2rem;
+    color: #002a42;
+    transition: all 80ms ease;
+}
+#on-button {
+    grid-area: onButton;
+}
+
+.clicked{
+    box-shadow: 1px 2px 5px rgba(1, 1, 1, 0.6);
+    background-color: #169aee;
+    transform: translateX(0.5px) translateY(0.5px) scale(0.98);
+}
+
+#clear-button {
+    grid-area: clearButton;
+}
+#plus-button {
+    grid-area: plusButton;
+}
+#minus-button{
+    grid-area: minusButton;
+}
+#div--button {
+    grid-area: divButton;
+}
+#mul--button {
+    grid-area: mulButton;
+}
+#number--One {
+    grid-area: numberOne;
+}
+#number--Two {
+    grid-area: numberTwo;
+}
+#number--Three {
+    grid-area: numberThree;
+}
+#number--Four {
+    grid-area: numberFour;
+}
+#number--Five {
+    grid-area: numberFive;
+}
+#number--Six {
+    grid-area: numberSix;
+}
+#number--Seven {
+    grid-area: numberSeven;
+}
+#number--Eight {
+    grid-area: numberEight;
+}
+#number--Nine {
+    grid-area: numberNine;
+}
+#number--Zero {
+    grid-area: numberZero;
+}
+#dot--button {
+    grid-area: dotButton;
+    font-size: 2rem;
+}
+#ans-button {
+    grid-area: ansButton;
+}
+
